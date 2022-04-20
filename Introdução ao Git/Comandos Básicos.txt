@@ -1,0 +1,22 @@
+ls //listar arquivos do diretório
+
+git config --global user.email "endereço de email" //muda o email no Git
+
+git config --global user.name <nome de usuário>
+
+git status //mostra fase do ciclo de vida dos arquivos do diretório
+
+git add  //traz o arquivo de modified para staged
+
+git add -a ou git add . ou git add * //traz todos os arquivos modificados na working directory para staged. Os arquivos vão para o repositório local.
+
+git commit -m "mensagem descrevendo a mudança" // pega os arquivos staged e envelopa eles em uma mensagem criando o objeto commit
+
+git push origin main //empurra as alterações para o github
+
+git pull origin master //faz o download da versão do arquivo remota para a máquina. Útil para resolver conflito de merge.
+
+git clone <url selecionada> //faz o download de todo o repositório remoto para a máquina
+
+Mais informações: https://github.com/git-guides/git-add#:~:text=The%20git%20add%20command%20adds,an%20unnecessary%20step%20in%20development.
+
